@@ -33,7 +33,7 @@ No terminal aparecerá a porta do servidor (http://localhost:portaX). Este é o 
 
 A api PHP estará disponível em http://localhost:8000.
 
-No projeto também estão 3 vídeos de apresentação na pasta "videos".
+No projeto também possui vídeos de apresentação na pasta "videos".
 
 Certifique-se de ter as versões corretas do Node.js e PHP instaladas.
 
