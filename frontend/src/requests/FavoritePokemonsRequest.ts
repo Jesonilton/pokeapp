@@ -10,7 +10,6 @@ export default class FavoritePokemonsRequest {
             }
 
             const response = await axios.get(url);
-                console.log(response.data);
             return response.data;
         } catch (error) {
             return {success: false, data: [], message: 'Erro ao buscar dados'};

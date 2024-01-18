@@ -67,6 +67,5 @@
 
     onMounted(async() => {
         pokemonList.value = await favoritePokemonsRequest.getAll();
-        console.log(pokemonList);
     }); 
 </script>
