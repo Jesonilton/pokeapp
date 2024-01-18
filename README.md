@@ -2,8 +2,6 @@
 
 Este é um projeto teste que utiliza Node.js e PHP.
 
-**O projeto está na branch Master**
-
 ## Pré-requisitos
 
 - Node.js v20.11.0
@@ -29,6 +27,7 @@ No terminal aparecerá a porta do servidor (http://localhost:portaX).
 1. Na pasta /api, execute o comando
    ```bash
    composer install
+   php artisan migrate
    php artisan serve
 
 A api PHP estará disponível em http://localhost:8000.
