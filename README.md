@@ -21,10 +21,11 @@ O banco de dados utilizado foi o postgres. Crie o banco de dados "pokemons". Se 
    ```bash
    npm run dev
 
-No terminal aparecerá a porta do servidor (http://localhost:portaX).
+No terminal aparecerá a porta do servidor (http://localhost:portaX). Este é o projeto a ser acessado via navegador
 
 ## Rodando a api em PHP
-1. Na pasta /api, execute o comando
+1. Na pasta /api, renomear o arquivo .env.example para .env
+2. Na pasta /api, execute os comandos
    ```bash
    composer install
    php artisan migrate
